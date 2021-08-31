@@ -12,6 +12,11 @@ func main() {
 	fmt.Println("cc = ", cc)
 
 	s := []string{"茅台", "五粮液", "泸州老窖"}
+
+	b := []int64{3, 17}
+
+	fmt.Println(arrayContains(a, b))
+
 	fmt.Println(strings.Join(s, ","))
 }
 
@@ -35,4 +40,16 @@ func filterValidTargetIDs(targetIds []int64, excontents []Content) (validTargetI
 
 type Content struct {
 	ID int64
+}
+
+func arrayContains(arr []int64, subArr []int64) bool {
+	times := 0
+	for _, v := range arr {
+		for _, v2 := range subArr {
+			if v == v2 {
+				times++
+			}
+		}
+	}
+	return times == len(subArr)
 }
