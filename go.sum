@@ -1,0 +1,4 @@
+github.com/importcjj/sensitive v0.0.0-20200106142752-42d1c505be7b h1:9hudrgWUhyfR4FRMOfL9KB1uYw48DUdHkkgr9ODOw7Y=
+github.com/importcjj/sensitive v0.0.0-20200106142752-42d1c505be7b/go.mod h1:zLVdX6Ed2SvCbEamKmve16U0E03UkdJo4ls1TBfmc8Q=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
